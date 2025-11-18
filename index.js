@@ -1,4 +1,5 @@
-import { App, ExpressReceiver } from "@slack/bolt";
+import pkg from "@slack/bolt";
+const { App, ExpressReceiver } = pkg;
 
 const {
   SLACK_BOT_TOKEN,
